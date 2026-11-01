@@ -54,6 +54,16 @@ supported never fails silently. When the daily free time is used up, the answer 
 - [`examples/speak.mjs`](examples/speak.mjs) — Node.js 18+, no packages
 - [`examples/usage.sh`](examples/usage.sh) — remaining time and available voices
 
+## Use it from AI assistants (MCP)
+
+- **Cloud:** connect Claude Code, Cursor or VS Code to `https://superclonica.com/mcp` with your key in the `Authorization: Bearer sc_...` header. Tools: `list_voices`, `speak`, `get_usage`; the audio counts against the same plan.
+
+  ```bash
+  claude mcp add --transport http superclonica https://superclonica.com/mcp --header "Authorization: Bearer sc_YOUR_KEY"
+  ```
+
+- **Local and offline:** [superclonica-mcp](https://github.com/superclonica/superclonica-mcp) runs on your computer with no limits: `uvx superclonica-mcp`.
+
 ## Languages
 
 English, Spanish, Portuguese, French, German, Italian, Dutch, Swedish, Danish, Finnish, Estonian,
