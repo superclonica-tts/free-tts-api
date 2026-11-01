@@ -62,7 +62,7 @@ supported never fails silently. When the daily free time is used up, the answer 
   claude mcp add --transport http superclonica https://superclonica.com/mcp --header "Authorization: Bearer sc_YOUR_KEY"
   ```
 
-- **Local and offline:** [superclonica-mcp](https://github.com/superclonica/superclonica-mcp) runs on your computer with no limits: `uvx superclonica-mcp`.
+- **Local and offline:** [superclonica-mcp](https://github.com/superclonica-tts/superclonica-mcp) runs on your computer with no limits: `uvx superclonica-mcp`.
 
 ## Languages
 
